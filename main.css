@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+}
+
+legend {
+	text-transform: uppercase;
+	font-family: "Rampart One", sans-serif;
+	color: red;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+input {
+    appearance: none;
+
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+.perm_marker {
+    font-family: "Permanent Marker", cursive;
+}
+
+
+.charm_font {
+    font-family: "Charm", cursive;
+}
+
+
+
+
+
+
+
